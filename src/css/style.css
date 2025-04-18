@@ -117,3 +117,26 @@ h2 {
     text-align: center;
     color: #5e0000;
 }
+
+.sobre-info {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sobre-texto {
+    flex: 1;
+    font-size: 1.1rem;
+}
+
+.sobre-imagem {
+    flex: 1;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
