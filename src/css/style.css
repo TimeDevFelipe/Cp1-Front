@@ -186,3 +186,28 @@ h2 {
     margin: 1rem 0;
     color: #5e0000;
 }
+
+footer {
+    background-color: #2c0000;
+    color: #f0c987;
+    padding: 2rem;
+    text-align: center;
+}
+
+#rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.endereco, .contato {
+    margin-bottom: 1rem;
+}
+
+footer p {
+    margin-top: 1rem;
+    color: #aaa;
+    font-size: 0.9rem;
+}
